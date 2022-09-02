@@ -1,0 +1,39 @@
+.logo-img-bg{
+    background-color: #fff;
+    padding: 8px;
+    margin: 0.5%;
+    height: 80%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.header{
+
+    width:100%;
+    height:60px;
+    background-color: rgb(104, 57, 3);  
+    display: flex;
+    padding-top:0px;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+.logo-img{
+   height: 100%;
+}
+a{
+  text-decoration: none;
+  color:white;
+  font-size: 15px;
+}
+a:hover{
+    background:rgba(221, 133, 2, 0.534);
+}
+li{
+    list-style-type: none;
+    display:inline-block;
+}
+.hrefs{
+  margin:0px 5px;
+}
+.hrefs li{
+  padding:0 10px;
+}
