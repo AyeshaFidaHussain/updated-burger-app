@@ -1,19 +1,20 @@
-import React,{ useState } from 'react';
-import { Footer } from './Footer/footer';
-import { Header } from './Header/header';
-import {BurgerContext} from './context/BurgerContext';
-import {ShowBurgerContents} from './Burger/burger';
+import { useState } from 'react'
+
+import { Header, Footer, ShowBurgerContents } from './components/components'
+import { BurgerContext } from './context/BurgerContext'
+
+import { Provider } from 'react-redux'
 
 function Homepage() {
-  const [burgerContents,setBurgerContents] = useState();
+  const [burgerContents, setBurgerContents] = useState()
   return (
-    <div>
-      <Header/>
-      <BurgerContext.Provider value={{burgerContents,setBurgerContents}}>
-      <ShowBurgerContents/>
-      <Footer/>
+    <Provider>
+      <Header />
+      <BurgerContext.Provider value={{ burgerContents, setBurgerContents }}>
+        <ShowBurgerContents />
+        <Footer />
       </BurgerContext.Provider>
-    </div>
-  );
+    </Provider>
+  )
 }
-export {Homepage}
+export default Homepage
