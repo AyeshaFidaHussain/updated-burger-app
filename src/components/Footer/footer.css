@@ -1,0 +1,16 @@
+.my-footer {
+  background-color: #cf8f2e;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.ingredient-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.ingredient-container h3 {
+  min-width: 20px;
+}

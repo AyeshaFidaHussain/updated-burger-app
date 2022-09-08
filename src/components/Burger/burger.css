@@ -1,0 +1,66 @@
+.Lettuce {
+  background: linear-gradient(#228c1d, #91ce50);
+  border-radius: 20px;
+}
+
+.Meat {
+  background: linear-gradient(#7f3608, #702e05);
+  border-radius: 15px;
+}
+
+.Cheese {
+  background: linear-gradient(#f4d004, #d6bb22);
+  border-radius: 20px;
+}
+
+.Bacon {
+  background: linear-gradient(#bf3813, #c45e38);
+}
+
+.burger-container {
+  width: 50%;
+  height: 350px;
+  text-align: center;
+  margin: auto;
+  overflow-y: auto;
+  padding: 10% 0 0 0;
+}
+
+.Lettuce,
+.Bacon,
+.Cheese,
+.Meat {
+  margin: 0.5% auto;
+  padding: 2%;
+  width: 80%;
+}
+
+.burger-top {
+  border-radius: 50% 50% 0 0;
+  padding: 10% 5%;
+}
+
+.burger-bottom {
+  border-radius: 0 0 30px 30px;
+  padding: 6% 5%;
+}
+
+.burger-top,
+.burger-bottom {
+  background: linear-gradient(#f08e4a, #e27b36);
+  box-shadow: inset -15px 0 #c15711;
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+  h3 {
+      font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h3 {
+      font-size: 14px;
+  }
+}
